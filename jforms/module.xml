@@ -12,6 +12,7 @@ platform: '.*'
     <description>{{page.description}}</description>
     <element>{{page.element}}</element>
     <type>{{page.type}}</type>
+    <client>0</client>
     <version>{{post.version}}</version>
     <infourl title="{{page.title}}">{{page.infourl}}</infourl>
     <downloads>
