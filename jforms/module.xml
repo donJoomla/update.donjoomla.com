@@ -19,9 +19,6 @@ platform: '.*'
     <downloads>
         <downloadurl type="full" format="zip">{{post.download}}</downloadurl>
     </downloads>
-    <tags>
-        <tag>stable</tag>
-    </tags>
     <maintainer>Adam Bouqdib</maintainer>
     <maintainerurl>http://donjoomla.com</maintainerurl>
     <targetplatform name="joomla" version="2.5"/>
@@ -37,9 +34,6 @@ platform: '.*'
     <downloads>
         <downloadurl type="full" format="zip">{{post.download}}</downloadurl>
     </downloads>
-    <tags>
-        <tag>stable</tag>
-    </tags>
     <maintainer>Adam Bouqdib</maintainer>
     <maintainerurl>http://donjoomla.com</maintainerurl>
     <targetplatform name="joomla" version="3.[012345]"/>
