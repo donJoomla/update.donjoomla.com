@@ -6,7 +6,8 @@ type: module
 infourl: http://donjoomla.com/extensions/jforms/
 ---
 <updates>
-  {% for post in site.categories.mod_jforms %}
+  {% for page in site.pages %}
+  {% if page.category == mod_jforms %}
   <update>
     <name>{{page.title}}</name>
     <description>{{page.description}}</description>
@@ -22,5 +23,6 @@ infourl: http://donjoomla.com/extensions/jforms/
     <maintainerurl>http://donjoomla.com</maintainerurl>
     <targetplatform name="joomla" version="{{post.platform}}"/>
   </update>
+  {% endif %}
   {% endfor %}
 </updates>
