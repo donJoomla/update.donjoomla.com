@@ -8,8 +8,4 @@ infourl: http://donjoomla.com/extensions/jforms/
 maintainer: Adam Bouqdib
 maintainerurl: http://donjoomla.com
 ---
-<updates>
-  {% for post in site.categories.plg_system_jforms reversed %}
-  {% include update.html %}
-  {% endfor %}
-</updates>
+{% include update.html %}
