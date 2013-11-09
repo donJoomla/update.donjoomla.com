@@ -1,0 +1,11 @@
+---
+layout: update
+title: JForms Module
+description: JForms Module
+element: mod_jforms
+type: module
+version: 1.6.1
+infourl: http://donjoomla.com/extensions/jforms/
+download: https://github.com/donJoomla/jforms/releases/download/1.6.1/mod_jforms_v1.6.1.zip
+platform: 2.5
+---
