@@ -6,7 +6,7 @@ type: module
 infourl: http://donjoomla.com/extensions/jforms/
 ---
 <updates>
-  {% for page in site.pages %}
+  {% for release in site.pages %}
   {% if page.category == mod_jforms %}
   <update>
     <name>{{page.title}}</name>
@@ -14,10 +14,10 @@ infourl: http://donjoomla.com/extensions/jforms/
     <element>{{page.element}}</element>
     <type>{{page.type}}</type>
     <client>0</client>
-    <version>{{post.version}}</version>
+    <version>{{release.version}}</version>
     <infourl title="{{page.title}}">{{page.infourl}}</infourl>
     <downloads>
-        <downloadurl type="full" format="zip">{{post.download}}</downloadurl>
+        <downloadurl type="full" format="zip">{{release.download}}</downloadurl>
     </downloads>
     <maintainer>Adam Bouqdib</maintainer>
     <maintainerurl>http://donjoomla.com</maintainerurl>
