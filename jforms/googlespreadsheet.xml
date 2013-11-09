@@ -5,6 +5,7 @@ element: googlespreadsheet
 type: plugin
 infourl: http://donjoomla.com/extensions/jforms/google-spreadsheets
 platform: '.*'
+folder: jforms
 ---
 {% for post in site.categories.plg_jforms_googlespreadsheet limit:1 %}
 <update>
@@ -12,6 +13,7 @@ platform: '.*'
     <description>{{page.description}}</description>
     <element>{{page.element}}</element>
     <type>{{page.type}}</type>
+    <folder>{{page.folder}}</folder>
     <version>{{post.version}}</version>
     <infourl title="{{page.title}}">{{page.infourl}}</infourl>
     <downloads>
