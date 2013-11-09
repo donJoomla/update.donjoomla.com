@@ -1,0 +1,27 @@
+---
+title: JForms Framework
+description: JForms Framework
+element: jforms
+type: plugin
+infourl: http://donjoomla.com/extensions/jforms/
+platform: 2.5
+---
+{% for post in site.categories.plg_system_jforms limit:1 %}
+<update>
+	<name>{{page.title}}</name>
+    <description>{{page.description}}</description>
+    <element>{{page.element}}</element>
+    <type>{{page.type}}</type>
+    <version>{{post.version}}</version>
+    <infourl title="{{page.title}}">{{page.infourl}}</infourl>
+    <downloads>
+        <downloadurl type="full" format="zip">{{post.download}}</downloadurl>
+    </downloads>
+    <tags>
+        <tag>stable</tag>
+    </tags>
+    <maintainer>Adam Bouqdib</maintainer>
+    <maintainerurl>http://donjoomla.com</maintainerurl>
+    <targetplatform name="joomla" version="{{page.platform}}"/>
+</update>
+{% endfor %}
