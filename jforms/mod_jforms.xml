@@ -14,6 +14,7 @@ infourl: http://donjoomla.com/extensions/jforms/
     <element>{{page.element}}</element>
     <type>{{page.type}}</type>
     <client>0</client>
+    <client_id>0</client_id>
     <version>{{release.version}}</version>
     <infourl title="{{page.title}}">{{page.infourl}}</infourl>
     <downloads>
@@ -21,7 +22,7 @@ infourl: http://donjoomla.com/extensions/jforms/
     </downloads>
     <maintainer>Adam Bouqdib</maintainer>
     <maintainerurl>http://donjoomla.com</maintainerurl>
-    <targetplatform name="joomla" version="{{post.platform}}"/>
+    <targetplatform name="joomla" version="{{release.platform}}"/>
   </update>
   {% endif %}
   {% endfor %}
