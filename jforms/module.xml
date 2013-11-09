@@ -17,7 +17,7 @@ platform: '.*'
     <infourl title="{{page.title}}">{{page.infourl}}</infourl>
     <downloads>
         <downloadurl type="full" format="zip">{{post.download}}</downloadurl>
-     </downloads>
+    </downloads>
     <tags>
         <tag>stable</tag>
     </tags>
