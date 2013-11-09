@@ -3,6 +3,7 @@ title: JForms YMLP Plugin
 description: JForms Your Mailing List Provider Plugin
 element: ymlp
 type: plugin
+folder: jforms
 infourl: http://donjoomla.com/extensions/jforms/your-mailing-list-provider
 platform: '.*'
 ---
@@ -12,6 +13,7 @@ platform: '.*'
     <description>{{page.description}}</description>
     <element>{{page.element}}</element>
     <type>{{page.type}}</type>
+    <folder>{{page.folder}}</folder>
     <version>{{post.version}}</version>
     <infourl title="{{page.title}}">{{page.infourl}}</infourl>
     <downloads>
