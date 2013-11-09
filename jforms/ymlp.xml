@@ -14,6 +14,7 @@ platform: '.*'
     <element>{{page.element}}</element>
     <type>{{page.type}}</type>
     <folder>{{page.folder}}</folder>
+    <client>0</client>
     <version>{{post.version}}</version>
     <infourl title="{{page.title}}">{{page.infourl}}</infourl>
     <downloads>
