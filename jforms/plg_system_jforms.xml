@@ -1,4 +1,5 @@
 ---
+layout: update
 title: JForms Framework
 description: JForms Framework
 element: jforms
@@ -8,4 +9,3 @@ infourl: http://donjoomla.com/extensions/jforms/
 maintainer: Adam Bouqdib
 maintainerurl: http://donjoomla.com
 ---
-{% include update.html %}
