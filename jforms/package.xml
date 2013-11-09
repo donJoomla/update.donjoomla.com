@@ -4,7 +4,7 @@ description: JForms Module including all plugins
 element: pkg_jforms
 type: package
 infourl: http://donjoomla.com/extensions/jforms/
-platform: 2.5
+platform: '.*'
 ---
 {% for post in site.categories.pkg_jforms limit:1 %}
 <update>
