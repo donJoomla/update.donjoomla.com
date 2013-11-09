@@ -6,7 +6,7 @@ type: package
 infourl: http://donjoomla.com/extensions/jforms/
 ---
 <updates>
-  {% for post in site.categories.mod_jforms %}
+  {% for post in site.categories.pkg_jforms %}
   <update>
     <name>{{page.title}}</name>
     <description>{{page.description}}</description>
