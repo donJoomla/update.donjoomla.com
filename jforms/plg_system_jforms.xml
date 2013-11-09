@@ -5,24 +5,11 @@ element: jforms
 type: plugin
 folder: system
 infourl: http://donjoomla.com/extensions/jforms/
+maintainer: Adam Bouqdib
+maintainerurl: http://donjoomla.com
 ---
 <updates>
   {% for post in site.categories.plg_system_jforms reversed %}
-  <update>
-    <name>{{page.title}}</name>
-    <description>{{page.description}}</description>
-    <element>{{page.element}}</element>
-    <type>{{page.type}}</type>
-    <folder>{{page.folder}}</folder>
-    <client>0</client>
-    <version>{{post.version}}</version>
-    <infourl title="{{page.title}}">{{page.infourl}}</infourl>
-    <downloads>
-        <downloadurl type="full" format="zip">{{post.download}}</downloadurl>
-    </downloads>
-    <maintainer>Adam Bouqdib</maintainer>
-    <maintainerurl>http://donjoomla.com</maintainerurl>
-    <targetplatform name="joomla" version="{{post.platform}}"/>
-  </update>
+  {% include update.xml %}
   {% endfor %}
 </updates>
