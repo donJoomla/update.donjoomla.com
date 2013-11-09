@@ -9,7 +9,7 @@ platform: '.*'
 ---
 {% for post in site.categories.plg_jforms_ymlp limit:1 %}
 <update>
-	<name>{{page.title}}</name>
+    <name>{{page.title}}</name>
     <description>{{page.description}}</description>
     <element>{{page.element}}</element>
     <type>{{page.type}}</type>
