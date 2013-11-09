@@ -4,7 +4,7 @@ description: JForms Your Mailing List Provider Plugin
 element: ymlp
 type: plugin
 infourl: http://donjoomla.com/extensions/jforms/your-mailing-list-provider
-platform: 2.5
+platform: '.*'
 ---
 {% for post in site.categories.plg_jforms_ymlp limit:1 %}
 <update>
