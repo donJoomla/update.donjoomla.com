@@ -7,6 +7,7 @@ infourl: http://donjoomla.com/extensions/jforms/
 ---
 <updates>
   {% for mypage in site.pages %}
+  {{mypage}}
   {% if mypage.category == mod_jforms %}
   <update>
     <name>{{page.title}}</name>
