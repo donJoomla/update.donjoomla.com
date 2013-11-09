@@ -4,7 +4,7 @@ description: JForms Module
 element: mod_jforms
 type: module
 infourl: http://donjoomla.com/extensions/jforms/
-platform: 2.5
+platform: '.*'
 ---
 {% for post in site.categories.mod_jforms limit:1 %}
 <update>
