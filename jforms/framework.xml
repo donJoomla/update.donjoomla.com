@@ -4,7 +4,7 @@ description: JForms Framework
 element: jforms
 type: plugin
 infourl: http://donjoomla.com/extensions/jforms/
-platform: 2.5
+platform: '.*'
 ---
 {% for post in site.categories.plg_system_jforms limit:1 %}
 <update>
