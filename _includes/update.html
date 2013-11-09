@@ -1,3 +1,5 @@
+<updates>
+  {% for post in site.categories.plg_system_jforms reversed %}
   <update>
     <name>{{page.title}}</name>
     <description>{{page.description}}</description>
@@ -15,3 +17,5 @@
     <maintainerurl>{{page.maintainerurl}}</maintainerurl>
     <targetplatform name="joomla" version="{{post.platform}}"/>
   </update>
+  {% endfor %}
+</updates>
