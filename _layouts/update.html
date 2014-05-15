@@ -7,8 +7,7 @@
     <element>{{page.element}}</element>
     <type>{{page.type}}</type>
     <folder>{{page.folder}}</folder>
-    <client>{{post.client}}</client>
-    <client_id>{{post.client}}</client_id>
+    <client{% if post.platform < 2.5 %}_id{% endif %}>{{page.client}}</client{% if post.platform < 2.5 %}_id{% endif %}>
     <version>{{post.version}}</version>
     <infourl title="{{page.title}}">{{page.infourl}}</infourl>
     <downloads>
