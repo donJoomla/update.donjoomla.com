@@ -1,0 +1,6 @@
+---
+category: com_timeline
+version: 1.1
+download: https://github.com/donJoomla/timeline/releases/download/1.1/com_timeline_v1.1.zip
+platform: 3.0
+---
