@@ -1,0 +1,10 @@
+---
+layout: update
+title: DON Timeline
+description: DON Timeline
+element: com_timeline
+type: component
+infourl: http://donjoomla.com/extensions/timeline/
+maintainer: Adam Bouqdib
+maintainerurl: http://donjoomla.com
+---
