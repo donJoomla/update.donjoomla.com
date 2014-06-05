@@ -1,0 +1,8 @@
+-
+    version: 1.2.1
+    download: https://github.com/donJoomla/jforms/releases/download/1.6.5/plg_jforms_googlespreadsheet.zip
+    platform: 2.5
+-
+    version: 1.2.1
+    download: https://github.com/donJoomla/jforms/releases/download/1.6.5/plg_jforms_googlespreadsheet.zip
+    platform: 3.[012345]
