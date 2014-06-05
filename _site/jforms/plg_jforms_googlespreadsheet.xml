@@ -1,3 +1,43 @@
 <updates>
   
+  <update>
+    <name>JForms Google Spreadsheets Plugin</name>
+    <description>Google Spreadsheet Export</description>
+    <element>googlespreadsheet</element>
+    <type>plugin</type>
+    <folder>jforms</folder>
+    
+    <version>1.2.1</version>
+    <infourl title="JForms Google Spreadsheets Plugin">http://donjoomla.com/extensions/jforms/google-spreadsheets</infourl>
+    <downloads>
+      <downloadurl type="full" format="zip">https://github.com/donJoomla/jforms/releases/download/1.6.5/plg_jforms_googlespreadsheet.zip</downloadurl>
+    </downloads>
+    <tags>
+      <tag>stable</tag>
+    </tags>
+    <maintainer>Adam Bouqdib</maintainer>
+    <maintainerurl>http://donjoomla.com</maintainerurl>
+    <targetplatform name="joomla" version="2.5"/>
+  </update>
+  
+  <update>
+    <name>JForms Google Spreadsheets Plugin</name>
+    <description>Google Spreadsheet Export</description>
+    <element>googlespreadsheet</element>
+    <type>plugin</type>
+    <folder>jforms</folder>
+    
+    <version>1.2.1</version>
+    <infourl title="JForms Google Spreadsheets Plugin">http://donjoomla.com/extensions/jforms/google-spreadsheets</infourl>
+    <downloads>
+      <downloadurl type="full" format="zip">https://github.com/donJoomla/jforms/releases/download/1.6.5/plg_jforms_googlespreadsheet.zip</downloadurl>
+    </downloads>
+    <tags>
+      <tag>stable</tag>
+    </tags>
+    <maintainer>Adam Bouqdib</maintainer>
+    <maintainerurl>http://donjoomla.com</maintainerurl>
+    <targetplatform name="joomla" version="3.[012345]"/>
+  </update>
+  
 </updates>
