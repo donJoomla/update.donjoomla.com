@@ -1,0 +1,11 @@
+---
+layout: update
+title: JForms YMLP Plugin
+description: JForms Your Mailing List Provider Plugin
+element: ymlp
+type: plugin
+folder: jforms
+infourl: http://donjoomla.com/extensions/jforms/your-mailing-list-provider
+maintainer: Adam Bouqdib
+maintainerurl: http://donjoomla.com
+------

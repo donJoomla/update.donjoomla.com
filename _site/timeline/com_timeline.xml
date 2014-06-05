@@ -1,0 +1,23 @@
+<updates>
+  
+  <update>
+    <name>com_timeline</name>
+    <description>Timeline</description>
+    <element>com_timeline</element>
+    <type>component</type>
+    
+    <client>1</client>
+    <version>1.1</version>
+    <infourl title="com_timeline">http://donjoomla.com/extensions/timeline/</infourl>
+    <downloads>
+      <downloadurl type="full" format="zip">https://github.com/donJoomla/timeline/releases/download/1.1/com_timeline_v1.1.zip</downloadurl>
+    </downloads>
+    <tags>
+      <tag>stable</tag>
+    </tags>
+    <maintainer>Adam Bouqdib</maintainer>
+    <maintainerurl>http://donjoomla.com</maintainerurl>
+    <targetplatform name="joomla" version="3.[012345]"/>
+  </update>
+  
+</updates>

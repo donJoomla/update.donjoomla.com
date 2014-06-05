@@ -1,13 +1,12 @@
 <updates>
-  {% for post in site.posts reversed %}
-  {% if post.category == page.element %}
+  {% for post in site.data[{{page.element}}] %}
   <update>
     <name>{{page.title}}</name>
     <description>{{page.description}}</description>
     <element>{{page.element}}</element>
     <type>{{page.type}}</type>
-    <folder>{{page.folder}}</folder>
-    <client>{{page.client}}</client>
+    {% if page.folder %}<folder>{{page.folder}}</folder>{% endif %}
+    {% if page.client %}<client>{{page.client}}</client>{% endif %}
     <version>{{post.version}}</version>
     <infourl title="{{page.title}}">{{page.infourl}}</infourl>
     <downloads>
@@ -20,6 +19,5 @@
     <maintainerurl>{{page.maintainerurl}}</maintainerurl>
     <targetplatform name="joomla" version="{{post.platform}}"/>
   </update>
-  {% endif %}
   {% endfor %}
 </updates>
