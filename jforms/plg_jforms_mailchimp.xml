@@ -1,0 +1,11 @@
+---
+layout: update
+title: JForms Mailchimp Plugin
+description: JForms Mailchimp Plugin
+element: mailchimp
+type: plugin
+folder: jforms
+infourl: http://donjoomla.com/extensions/mailchimp
+maintainer: Adam Bouqdib
+maintainerurl: http://donjoomla.com
+------
