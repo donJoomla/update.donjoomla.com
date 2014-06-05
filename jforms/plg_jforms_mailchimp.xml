@@ -5,6 +5,7 @@ description: JForms Mailchimp Plugin
 element: mailchimp
 type: plugin
 folder: jforms
+client: 0
 infourl: http://donjoomla.com/extensions/mailchimp
 maintainer: Adam Bouqdib
 maintainerurl: http://donjoomla.com

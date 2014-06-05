@@ -5,6 +5,7 @@ description: Google Spreadsheet Export
 element: googlespreadsheet
 type: plugin
 folder: jforms
+client: 0
 infourl: http://donjoomla.com/extensions/jforms/google-spreadsheets
 maintainer: Adam Bouqdib
 maintainerurl: http://donjoomla.com

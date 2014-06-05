@@ -5,6 +5,7 @@ description: JForms Framework
 element: jforms
 type: plugin
 folder: system
+client: 0
 infourl: http://donjoomla.com/extensions/jforms/
 maintainer: Adam Bouqdib
 maintainerurl: http://donjoomla.com

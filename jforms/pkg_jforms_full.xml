@@ -4,6 +4,7 @@ title: JForms Module Full
 description: JForms Module including all plugins
 element: pkg_jforms
 type: package
+client: 0
 infourl: http://donjoomla.com/extensions/jforms/
 maintainer: Adam Bouqdib
 maintainerurl: http://donjoomla.com

@@ -4,6 +4,7 @@ title: JForms Module
 description: JForms Module
 element: mod_jforms
 type: module
+client: 0
 infourl: http://donjoomla.com/extensions/jforms/
 maintainer: Adam Bouqdib
 maintainerurl: http://donjoomla.com
