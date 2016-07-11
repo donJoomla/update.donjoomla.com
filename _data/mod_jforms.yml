@@ -5,16 +5,12 @@
 -
     version: 1.6.5
     download: https://github.com/donJoomla/jforms/releases/download/1.6.5/mod_jforms.zip
-    platform: 3.0
+    platform: 3.[012345]
 -
-    version: 1.6.5
-    download: https://github.com/donJoomla/jforms/releases/download/1.6.5/mod_jforms.zip
-    platform: 3.1
+    version: 1.6.6
+    download: https://github.com/donJoomla/jforms/releases/download/1.6.6/mod_jforms.zip
+    platform: 2.5
 -
-    version: 1.6.5
-    download: https://github.com/donJoomla/jforms/releases/download/1.6.5/mod_jforms.zip
-    platform: 3.2
--
-    version: 1.6.5
-    download: https://github.com/donJoomla/jforms/releases/download/1.6.5/mod_jforms.zip
-    platform: 3.3
+    version: 1.6.6
+    download: https://github.com/donJoomla/jforms/releases/download/1.6.6/mod_jforms.zip
+    platform: 3.[012345]

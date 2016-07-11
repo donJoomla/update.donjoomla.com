@@ -1,0 +1,12 @@
+---
+layout: update
+title: JForms DB Plugin
+description: A jForms plugin to save submitted data in the local Joomla! database.
+element: plg_jforms_db
+type: plugin
+folder: jforms
+client: 0
+infourl: http://donjoomla.com/extensions/jforms/db
+maintainer: Adam Bouqdib
+maintainerurl: http://donjoomla.com
+---
